@@ -36,7 +36,7 @@ urlpatterns = [
         name="logout",
     ),
     path("", include("blog.urls")),
-    path("mdeditor/", include("mdeditor.urls"))
+    path("mdeditor/", include("mdeditor.urls")),
 ]
 
 if settings.DEBUG:
